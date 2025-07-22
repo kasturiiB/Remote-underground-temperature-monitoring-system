@@ -50,6 +50,13 @@ Libraries Used:
 - RTClib.h or DS3231.h for RTC
 
 - SoftwareSerial or TinyGSM for GSM module <br> <br><br>
+## 🔁 Data Logging & Transmission
+- Sensor readings are taken every 5 minutes using the DS18B20 and DHT22 sensors.
 
+- Each reading is timestamped using the DS3231 RTC module.
+
+- The ESP32 stores the readings in memory temporarily.
+
+- Every 1 hour, the ESP32 formats and sends the collected data to ThingSpeak via the GSM module using HTTP POST.
 
 
