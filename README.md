@@ -1,4 +1,8 @@
 # Remote underground temperature monitoring system
+<p align="center">
+<img src="images/project_model.png" alt="Model Diagram" width="400">
+</p> 
+
 ## Overview
  A solar-powered, remote temperature monitoring system that can measure and log underground and near-surface environmental conditions in real-time is designed and built.
 The Remote underground temperature monitoring system is designed for continuous, real-time environmental data collection in remote locations. It supports multiple sensors and timestamped logging, enabling precise analysis of underground and surface temperatures.
@@ -50,7 +54,7 @@ Libraries Used:
 - RTClib.h or DS3231.h for RTC
 
 - SoftwareSerial or TinyGSM for GSM module <br> <br><br>
-## 🔁 Data Logging & Transmission
+## Data Logging & Transmission
 - Sensor readings are taken every 5 minutes using the DS18B20 and DHT22 sensors.
 
 - Each reading is timestamped using the DS3231 RTC module.
