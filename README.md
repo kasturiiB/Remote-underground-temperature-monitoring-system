@@ -30,7 +30,7 @@ This project facilitates accurate, timestamped temperature monitoring in challen
 - Powered by solar panel + Li-ion battery with charge controller.
 
 - Enclosed in a weatherproof, modular hardware structure for outdoor deployment. <br> <br> <br>
-## Hardware Components
+### Hardware Components
 
 | Component                | Description                           |
 |--------------------------|----------------------------------------|
